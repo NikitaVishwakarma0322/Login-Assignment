@@ -1,5 +1,26 @@
 .App {
   text-align: center;
+  font-family: "Arial Rounded MT Bold, sans-serif";
+}
+
+.show {
+  right: 20px;
+  position: absolute;
+  top: 15px;
+}
+
+.password-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.error-message {
+  text-align: left;
+  color: red;
+  font-size: 12px;
+  padding-left: 10px;
 }
 
 .App-logo {
